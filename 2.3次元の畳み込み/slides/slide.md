@@ -2,7 +2,7 @@
 marp: true
 header: ""
 footer: "2023/04/30 ゼロイチゼミ <a href=\"https://twitter.com/nu_zero_one\" style=\"color:white\">@nu_zero_one</a>"
-theme: 01dracula
+theme: 01semi
 paginate: true
 ---
 
@@ -15,5 +15,39 @@ _paginate: false
 <a style="color:#eeeeee; text-decoration: none;" href="https://github.com/kentakom1213">ぱうえる（けんた）:link:</a>
 
 ## 3次元の畳み込み
+3次元に拡張するとどうなる？
 
+![h:400](images/convolution3d_1.drawio.png)
 
+## 3次元の畳み込み
+計算方法
+1. **レイヤーごとに畳み込み**を行う
+2. **それらの和**を求める
+
+## 手順1
+![bg contain](images/convolution3d_2.drawio.png)
+
+<!--
+_footer: ""
+-->
+
+## 手順2
+![bg contain](images/convolution3d_3.drawio.png)
+
+<!--
+_footer: ""
+-->
+
+## 3次元畳み込みの注意！
+入力データとフィルターの**チャンネル数**が同じである必要がある
+<hr>
+
+$$
+(C,H,W) \ast (C,FH,FW) \to (1,OH,OW)
+$$
+
+## 3次元畳み込みの注意！（図）
+![h:480](images/channel.jpg)
+
+## 複数のフィルターによる畳み込み
+![h:450](images/multi_filter.drawio.png)
