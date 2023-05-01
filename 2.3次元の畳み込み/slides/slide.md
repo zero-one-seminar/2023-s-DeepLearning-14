@@ -14,6 +14,11 @@ _paginate: false
 # 3次元畳み込み / プーリング層
 <a style="color:#eeeeee; text-decoration: none;" href="https://github.com/kentakom1213">ぱうえる（けんた）:link:</a>
 
+## 3次元の画像とは？
+
+![h:480](images/color_separastion.drawio.png)
+
+
 ## 3次元の畳み込み
 3次元に拡張するとどうなる？
 
@@ -32,6 +37,8 @@ _footer: ""
 -->
 
 ## 手順2
+- 畳み込みを行ったもの同士を足し合わせる
+
 ![bg contain](images/convolution3d_3.drawio.png)
 
 <!--
@@ -47,10 +54,18 @@ $$
 $$
 
 ## 3次元畳み込みの注意！（図）
-![h:480](images/channel.jpg)
+![bg](images/batch.drawio.png)
+
+<!--
+_footer: ""
+-->
 
 ## 複数のフィルターによる畳み込み
 ![h:480](images/multi_filter.drawio.png)
 
-## バッチ処理
+## バイアス・バッチ処理
+![bg contain](images/dimension.drawio.png)
 
+<!--
+_footer: ""
+-->
