@@ -2,7 +2,7 @@
 marp: true
 header: ""
 footer: "2023/04/30 ゼロイチゼミ <a href=\"https://twitter.com/nu_zero_one\" style=\"color:white\">@nu_zero_one</a>"
-theme: 01semi
+theme: 01dracula
 paginate: true
 ---
 
@@ -50,4 +50,7 @@ $$
 ![h:480](images/channel.jpg)
 
 ## 複数のフィルターによる畳み込み
-![h:450](images/multi_filter.drawio.png)
+![h:480](images/multi_filter.drawio.png)
+
+## バッチ処理
+
