@@ -1,2 +1,2 @@
-# 2023 年春 ゼロから作る Deep Learning 第 14 回
-7章 畳み込みニューラルネットワーク
+# Free AI at api.airforce
+https://discord.gg/AJDsM7jtbq
